@@ -11,4 +11,9 @@ public class HelloWorldController {
 	public String getMessage() {
 		return "This message is printed by Vivek Gohil";
 	}
+
+	@RequestMapping("newmessage")
+	public String printMessage() {
+		return "This message is printeed by Trupti";
+	}
 }
